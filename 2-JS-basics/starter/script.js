@@ -111,3 +111,58 @@ var finalAmounts = [bills[0] + tips[0],
                     bills[2] + tips[2]];
 console.log(tips, finalAmounts);
 */
+
+/*****************************
+* CODING CHALLENGE 4
+*/
+
+/*
+Let's remember the first coding challenge where Mark and John compared their BMIs. Let's now implement the same functionality with objects and methods.
+1. For each of them, create an object with properties for their full name, mass, and height
+2. Then, add a method to each object to calculate the BMI. Save the BMI to the object and also return it from the method.
+3. In the end, log to the console who has the highest BMI, together with the full name and the respective BMI. Don't forget they might have the same BMI.
+
+Remember: BMI = mass / height^2 = mass / (height * height). (mass in kg and height in meter).
+
+GOOD LUCK 😀
+*/
+/*var bmiMark = massMark / (heightMark * heightMark);
+var bmiJohn = massJohn / (heightJohn * heightJohn);
+console.log(bmiMark, bmiJohn);
+
+var higherMarkBMI = bmiMark > bmiJohn;
+console.log('Is Mark\'s BMI higher than John\'s? ' + higherMarkBMI);
+*/
+/*
+var mark = {
+  fullName: 'Mark Donahoe',
+  mass: 170, // kg
+  height: 1.5, // meters
+  calcBMI: function() { // body mass index
+    this.bmi = this.mass / (this.height * this.height);
+    return this.bmi;
+  }
+}
+
+var john = {
+  fullName: 'John Shon',
+  mass: 170, // kg
+  height: 1.5, // meters
+  calcBMI: function() { // body mass index
+    this.bmi = this.mass / (this.height * this.height);
+    return this.bmi;
+  }
+}
+
+console.log(mark, john);
+switch (true) {
+  case mark.calcBMI() > john.calcBMI():
+    console.log('Mark has the higher BMI, at ' + mark.bmi + '.');
+    break;
+  case john.bmi > mark.bmi:
+    console.log('John has the higher BMI, at ' + john.bmi + '.');
+    break;
+  case mark.bmi == john.bmi:
+    console.log('Mark and John have the same BMI, at ' + mark.bmi + '.');
+}
+*/
