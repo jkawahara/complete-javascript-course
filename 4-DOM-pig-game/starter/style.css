@@ -137,9 +137,28 @@ i {
     transition: margin 0.3s;
 }
 
+.winscore {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 90px;
+  color: #555;
+  font-size: 18px;
+  font-family: 'Lato';
+  text-align: center;
+  padding: 10px;
+  width: 180px;
+  text-transform: uppercase;
+}
+
+.winscore:focus { outline: none; }
+
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
+
+#dice-1 { top: 170px; }
+#dice-2 { top: 288px; }
 
 .dice {
     position: absolute;
